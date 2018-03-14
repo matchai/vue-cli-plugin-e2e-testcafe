@@ -1,0 +1,13 @@
+{
+  "name": "vue-cli-plugin-e2e-testcafe",
+  "version": "0.1.0",
+  "description": "e2e-testcafe plugin for vue-cli",
+  "main": "index.js",
+  "author": "Matan Kushner <hello@matchai.me>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-testcafe": "^0.2.1",
+    "testcafe": "^0.19.1",
+    "testcafe-vue-selectors": "^3.0.0"
+  }
+}
