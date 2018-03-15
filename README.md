@@ -1,15 +1,16 @@
-# vue-cli-plugin-e2e-testcafe
+# ☕️ vue-cli-plugin-e2e-testcafe
 
-> e2e-testcafe plugin for vue-cli
+> e2e-testcafe plugin for vue-cli (WIP)
 
 This adds E2E testing support using [TestCafe](https://testcafe.devexpress.com/).
 
-## ⚠️ WIP ⚠️
-### Implemented Features
+## Features
+
+### Implemented
 - Run TestCafe tests in headless chrome with `vue-cli-service e2e`
 - Run TestCafe tests in chrome with `vue-cli-service e2e:open`
 
-### Upcoming Features
+### Upcoming
 - Add eslint-plugin-testcafe
 - Add testcafe-vue-selectors
 - Run TestCafe tests in all browsers
