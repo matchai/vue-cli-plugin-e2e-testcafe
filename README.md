@@ -4,6 +4,21 @@
 
 This adds E2E testing support using [TestCafe](https://testcafe.devexpress.com/).
 
+## ⚠️ WIP ⚠️
+### Implemented Features
+- Run TestCafe tests in headless chrome with `vue-cli-service e2e`
+- Run TestCafe tests in chrome with `vue-cli-service e2e:open`
+
+### Upcoming Features
+- Run TestCafe tests in all browsers
+- Plugin generator
+  - Example test scaffold
+  - Generate e2e commands for all installed browsers
+- Options
+  - Concurrency
+  - Debug mode
+  - Adjust timeout
+
 ## Injected Commands
 
 - **`vue-cli-service e2e`**
@@ -42,5 +57,4 @@ We've pre-configured TestCafe to place most of the e2e testing related files und
 
 ``` sh
 npm install -D vue-cli-plugin-e2e-testcafe
-vue invoke e2e-testcafe
 ```
