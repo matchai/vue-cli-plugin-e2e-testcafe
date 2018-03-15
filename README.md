@@ -10,6 +10,8 @@ This adds E2E testing support using [TestCafe](https://testcafe.devexpress.com/)
 - Run TestCafe tests in chrome with `vue-cli-service e2e:open`
 
 ### Upcoming Features
+- Add eslint-plugin-testcafe
+- Add testcafe-vue-selectors
 - Run TestCafe tests in all browsers
 - Plugin generator
   - Example test scaffold
